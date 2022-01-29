@@ -17,8 +17,8 @@ function setupColumn(p) {
     
         span.innerText = getRandomChar();
         const animation = span.animate([
-            { opacity: '1' },
-            { opacity: '0.05' }
+            { opacity: '1', color: 'red' },
+            { opacity: '0.01', color: 'blue' },
         ], {
             duration: duration,
             delay: delay + (j * 75), // add delay for every char
